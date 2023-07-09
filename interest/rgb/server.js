@@ -10,7 +10,6 @@ let red = 0;
 let green = 0;
 let blue = 0;
 
-
 app.get('/pallet', (req, res) => {
     res.json({ red, green, blue });
 });
